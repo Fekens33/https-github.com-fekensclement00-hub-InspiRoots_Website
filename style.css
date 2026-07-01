@@ -4,6 +4,22 @@ img {
     height: auto;
 }
 
+body.has-cookie-banner {
+    padding-bottom: 6rem;
+}
+
+.cookie-consent-banner {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1050;
+    background: #fff;
+    border-top: 1px solid #dee2e6;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.08);
+    padding: 1rem 0;
+}
+
 /* Hero / CTA */
 .partner-btn {
     color: #084298;
