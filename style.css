@@ -1,3 +1,23 @@
+/* General layout helpers */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Hero / CTA */
+.partner-btn {
+    color: #084298;
+    border-color: #084298;
+    font-weight: 600;
+}
+
+.partner-btn:hover,
+.partner-btn:focus {
+    color: #fff;
+    background-color: #084298;
+    border-color: #084298;
+}
+
 /* Testimonials Carousel Custom Styles */
 #testimonials .testimonial-card {
     max-width: 700px;
@@ -36,12 +56,14 @@ footer ul li {
 }
 
 footer ul li a {
-    color: #ced4da;
+    color: #e9ecef;
     text-decoration: none;
 }
 
-footer ul li a:hover {
+footer ul li a:hover,
+footer ul li a:focus {
     color: #fff;
+    text-decoration: underline;
 }
 
 .footer-bottom {
